@@ -1,14 +1,12 @@
 const axios = require('axios').default;
 /**
  * @author Joshi Yogesh
- * @param {object} options - Object that must be pass for the soaprequest
- * @param {string} options.url - URL mentioned in the wsdl {endpoints to hit the soap-request}
- * @param {string} options.data - XML data which need to be sent to web service
- * @param {object} options.headers - Header which need to be sent to request
- * @param {object} options.extraOptions - Object in case extra additional Axios Parameter needs to be pass
- * @param {object} options.proxy - Proxy Object with Proxy configuration of Proxy server host name and port number {host : "127.0.0.1",port : 3000, auth : {username : "joshiyogesh" password : "imduffer"}}
- * @param {number} options.timeout - Timeout for request
- * @param {number} options.maxContentLength - max permissable content length that should be pass, by default Infinity 
+ * @param {string} url - URL mentioned in the wsdl {endpoints to hit the soap-request}
+ * @param {string} data - XML data which need to be sent to web service
+ * @param {object} headers - Header which need to be sent to request
+ * @param {object} proxy - Proxy Object with Proxy configuration of Proxy server host name and port number {host : "127.0.0.1",port : 3000, auth : {username : "joshiyogesh" password : "imduffer"}}
+ * @param {number} timeout - Timeout for request
+ * @param {number} maxContentLength - max permissable content length that should be pass, by default Infinity 
  */
 const soaprequest = ({
     url = '',
