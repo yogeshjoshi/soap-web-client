@@ -45,14 +45,14 @@ const soaprequest = ({
                     headers : response.headers,
                     body : response.data,
                     status : response.status,
-                    message : 'SOAP_WEB_CLIENT_SOAP_REQUEST_SUCCESS'
+                    message : 'SOAP_WEB_CLIENT_REQUEST_SUCCESS'
                 }
             })
         }).catch((error : any)=>{
             if(error.response){
                 reject({
                     response : {
-                        message : 'SOAP_WEB_CLIENT_SOAP_REQUEST_FAILURE',
+                        message : 'SOAP_WEB_CLIENT_REQUEST_FAILURE',
                         data : error.response.data
                     }
                 })

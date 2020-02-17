@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "small simple soap-web-client library",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yogeshjoshi/soap-web-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yogeshjoshi/soap-web-client/issues"
+  },
+  "homepage": "https://github.com/yogeshjoshi/soap-web-client/blob/master/README.md",
   "scripts": {
     "test": "jest --config=jestconfig.json",
     "coverage": "jest --config=jestconfig.json --coverage",
@@ -10,7 +18,7 @@
     "clean": "sudo rm -rf node_modules/"
   },
   "author": "joshiyogesh",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.1.2",
     "@types/node": "^13.7.1",
