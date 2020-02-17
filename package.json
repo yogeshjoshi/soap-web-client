@@ -4,14 +4,17 @@
   "description": "small simple soap-web-client library",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config jestconfig.json",
-    "build": "tsc"
+    "test": "jest --config=jestconfig.json",
+    "coverage": "jest --config=jestconfig.json --coverage",
+    "build": "tsc",
+    "clean": "sudo rm -rf node_modules/"
   },
   "author": "joshiyogesh",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^25.1.2",
     "@types/node": "^13.7.1",
+    "axios-mock-adapter": "^1.17.0",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"

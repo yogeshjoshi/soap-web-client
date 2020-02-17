@@ -3,7 +3,6 @@
     "transform": {
         "^.+\\.(t|j)sx?$": "ts-jest"
     },
-    "testURL" : "http://192.168.31.228",
     "testEnvironment" : "node",
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
