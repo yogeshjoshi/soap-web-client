@@ -5,17 +5,17 @@ small simple soap-web-client library to make SOAP Client
 [![Coverage](https://img.shields.io/badge/Code%20Coverage-93.75%25-green)]
 [![License](https://img.shields.io/github/license/yogeshjoshi/soap-web-client)]
 
-#Install
+<h3>Install</h3>
 <pre>yarn add soap-web-client</pre> 
 or
 <pre>npm install soap-web-client</pre>
 
-##Requirements
+<h3>Requirements</h3>
 <pre>node.js >= 7.6.0</pre>
 
-##How to use ?
+<h3>How to use ?</h3>
 
-###Node.js
+<h4>Node.js</h4>
 ```
 const fs = require('fs');
 const soaprequest = require('soap-web-client');
@@ -34,7 +34,7 @@ const data = fs.readFileSync('request.xml', 'utf-8');
 })();
 
 ```
-###Output Format
+<h4>Output Format</h4>
 
 ```
 Promise Success Output - 
