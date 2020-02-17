@@ -16,7 +16,8 @@ or
 <h3>How to use ?</h3>
 
 <h4>Node.js</h4>
-```
+
+<pre>
 const fs = require('fs');
 const soaprequest = require('soap-web-client');
 
@@ -33,10 +34,10 @@ const data = fs.readFileSync('request.xml', 'utf-8');
     const {headers, body, status, message} = response;
 })();
 
-```
-<h4>Output Format</h4>
+</pre>
+##Output Format
 
-```
+<pre>
 Promise Success Output - 
 {
     response : 
@@ -55,6 +56,6 @@ Promise Failure -
         "data" : "error response"
     }
 }
-```
+</pre>
 
 
