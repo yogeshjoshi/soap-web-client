@@ -1,9 +1,9 @@
 # soap-web-client
-small simple soap-web-client library to make SOAP Client
+small simple soap-web-client library to make SOAP Client written in Typescript
 
-[![Build](https://img.shields.io/badge/build-passing-green)]
-[![Coverage](https://img.shields.io/badge/Code%20Coverage-93.75%25-green)]
-[![License](https://img.shields.io/github/license/yogeshjoshi/soap-web-client)]
+![build](https://github.com/yogeshjoshi/soap-web-client/workflows/build/badge.svg)
+![Coverage](https://img.shields.io/badge/Code%20Coverage-93.75%25-green)
+![License](https://img.shields.io/github/license/yogeshjoshi/soap-web-client)
 
 <h3>Install</h3>
 <pre>yarn add soap-web-client</pre> 
@@ -57,5 +57,10 @@ Promise Failure -
     }
 }
 </pre>
+
+<h4>Test and Code Coverage</h4>
+* Test has been covered in Jest Using Axios-Mock-Adapter
+* To run the test case for repository - ``` yarn test ``` or ``` npm run test ```
+* To see the code coverage for repository - ``` yarn coverage ``` or ``` npm run coverage ```
 
 
