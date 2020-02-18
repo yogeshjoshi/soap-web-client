@@ -59,8 +59,8 @@ Promise Failure -
 </pre>
 
 <h4>Test and Code Coverage</h4>
-* Test has been covered in Jest Using Axios-Mock-Adapter
-* To run the test case for repository - ``` yarn test ``` or ``` npm run test ```
-* To see the code coverage for repository - ``` yarn coverage ``` or ``` npm run coverage ```
+* Test has been covered in Jest Using Axios-Mock-Adapter</br>
+* To run the test case for repository - <pre> yarn test </pre> or <pre> npm run test </pre></br>
+* To see the code coverage for repository - <pre> yarn coverage </pre> or <pre> npm run coverage </pre>
 
 
