@@ -29,5 +29,15 @@
   },
   "dependencies": {
     "axios": "^0.19.2"
-  }
+  },
+  "keywords": [
+    "soap",
+    "soap-web-client",
+    "wsdl",
+    "soap services",
+    "soap web services",
+    "soap clinet",
+    "soap node",
+    "soap npm"
+  ]
 }
